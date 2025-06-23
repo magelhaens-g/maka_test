@@ -1,0 +1,1132 @@
+{
+	"info": {
+		"_postman_id": "3b15e707-85e3-4da7-988e-5cbed24271bd",
+		"name": "Maka Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11129421"
+	},
+	"item": [
+		{
+			"name": "Number 3",
+			"item": [
+				{
+					"name": "Index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/number3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"number3"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "Dummy",
+									"description": "nullable|based on name or address",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8001/api/number3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "Dummy",
+											"description": "nullable|based on name or address",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:14:40 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:14:40 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"id\": 3,\n            \"name\": \"Dummy\",\n            \"address\": \"Temp address\",\n            \"image\": \"images/sM4WGQyuV5bc6ihbF9w2fuLciy4gFrTvYihym2lI.png\",\n            \"created_at\": \"2025-06-23T19:06:09.000000Z\",\n            \"updated_at\": \"2025-06-23T19:06:09.000000Z\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Another\",\n            \"address\": \"Another\",\n            \"image\": \"images/zpAnNM2hXS5AHPyCDu7hAX0HxTMKYJ1ubCbIf2WI.png\",\n            \"created_at\": \"2025-06-23T19:10:04.000000Z\",\n            \"updated_at\": \"2025-06-23T19:10:04.000000Z\"\n        },\n        {\n            \"id\": 5,\n            \"name\": \"Sieg\",\n            \"address\": \"Sieghart address\",\n            \"image\": \"images/EU2FifrZ6yYiCHMKRyPOMiGU4Hg2HIinFNrKMSae.png\",\n            \"created_at\": \"2025-06-23T19:11:00.000000Z\",\n            \"updated_at\": \"2025-06-23T19:11:00.000000Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/api/number3/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"number3",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8001/api/number3/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:25:10 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:25:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"id\": 4,\n        \"name\": \"Another\",\n        \"address\": \"Another\",\n        \"image\": \"images/zpAnNM2hXS5AHPyCDu7hAX0HxTMKYJ1ubCbIf2WI.png\",\n        \"created_at\": \"2025-06-23T19:10:04.000000Z\",\n        \"updated_at\": \"2025-06-23T19:10:04.000000Z\"\n    }\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8001/api/number3/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"2"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:25:53 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:25:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": \"error\",\n    \"message\": \"User not found\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Store",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Dummy User",
+									"description": "required|string|max:50|unique",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Dummy address",
+									"description": "required|string|max:100",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"description": "required|image|mimes:jpg,png,jpeg,gif,svg",
+									"type": "file",
+									"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/number3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"number3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Another",
+											"description": "required|string|max:50|unique",
+											"type": "text"
+										},
+										{
+											"key": "address",
+											"value": "Another",
+											"description": "required|string|max:100",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpg,png,jpeg,gif,svg",
+											"type": "file",
+											"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:10:04 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:10:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully saved the data\"\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Sieg",
+											"description": "required|string|max:50|unique",
+											"type": "text"
+										},
+										{
+											"key": "address",
+											"value": "Sieghart address",
+											"description": "required|string|max:100",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "required|image|mimes:jpg,png,jpeg,gif,svg",
+											"type": "file",
+											"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3"
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:26:15 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:26:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The given data was invalid.\",\n    \"errors\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Update",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Dummy User",
+									"description": "required|string|max:50|unique",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "Dummy address",
+									"description": "nullable|string|max:100",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"description": "nullable|image|mimes:jpg,png,jpeg,gif,svg",
+									"type": "file",
+									"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/number3/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"number3",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Sieg",
+											"description": "required|string|max:50|unique",
+											"type": "text"
+										},
+										{
+											"key": "address",
+											"value": "Sieghart address update",
+											"description": "nullable|string|max:100",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"description": "nullable|image|mimes:jpg,png,jpeg,gif,svg",
+											"type": "file",
+											"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"5"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:51:26 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:51:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully updated the data\"\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Siegh",
+											"description": "required|string|max:50|unique",
+											"type": "text"
+										},
+										{
+											"key": "address",
+											"value": "Sieghart address update",
+											"description": "nullable|string|max:100",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "image",
+											"description": "nullable|image|mimes:jpg,png,jpeg,gif,svg",
+											"type": "file",
+											"src": "/C:/Users/Dvlpr/Downloads/Pictures/Black_Sun.png",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"4"
+									]
+								}
+							},
+							"status": "Unprocessable Content",
+							"code": 422,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:52:35 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:52:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The given data was invalid.\",\n    \"errors\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8001/api/number3/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"api",
+								"number3",
+								"6"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"2"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:55:57 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:55:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"Message\": \"User not found\"\n}"
+						},
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:8001/api/number3/6",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"api",
+										"number3",
+										"6"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8001"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:57:56 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Jun 2025 19:57:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.33"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Successfully deleted the data\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Number 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/number1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"number1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/number1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"number1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8001"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 23 Jun 2025 18:27:32 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 23 Jun 2025 18:27:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.33"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IkFENCtrSEdDRU84dFhMYU1GK2FIbnc9PSIsInZhbHVlIjoiejBPejhwUm5oQXMrbHhYbCtKMUp5ZXZUZ2ZTNnRsSUd6dkNIaGNqcllEc0tFOWlmaGNFeWJ1dml2by9lRjUyV0tTclQ4bXBjVlcwc0ZRWWhxQmZpb3dPY3VwSFZsbHQ4ekdiKzZGT2N6WUd3cGkxSFF0NFNMcm9yZFFMQWpHcisiLCJtYWMiOiI4MDQ4MWFiOWJlYTMxMWQ4Y2ZjY2U5ZGJkY2JmMjEwNGMwOTcwN2UzZDA1MzExOTBjZDBhMzRkNmVjNzc5YTgzIiwidGFnIjoiIn0%3D; expires=Mon, 23-Jun-2025 20:27:32 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Ik1tYmFjVHJWRm42TWNPei9RditHZVE9PSIsInZhbHVlIjoiQ2MrSHhkbXNtM01URG4wOXJvY25CbmwvTVU3WkZjNlZkK2Y3dmkvV1p1RDJqZmdQaFozUmMwaWxPR20wUVI4SElVQ0E4VzlxSXVZbUJYQ1lKSjlVQWdRYllXazIwbElsMWRSNXpBYXkrRDNLdTgzZjdZL08xaWFXOHc2LzdhWUciLCJtYWMiOiJmMGQ5ZWRiZDYyZDI5MTM5NWFlMGM5MmM2MDYxY2Q5YTViY2JmMzM1NWZiMTE3YWY4MjA3ZDcxZDJjMTQ0NDJlIiwidGFnIjoiIn0%3D; expires=Mon, 23-Jun-2025 20:27:32 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						}
+					],
+					"cookie": [],
+					"body": "1,2,Mari,4,Berkarya,Mari,7,8,Mari,Berkarya,11,Mari,13,14,Mari Berkarya,16,17,Mari,19,Berkarya,Mari,22,23,Mari,Berkarya,26,Mari,28,29,Mari Berkarya,31,32,Mari,34,Berkarya,Mari,37,38,Mari,Berkarya,41,Mari,43,44,Mari Berkarya,46,47,Mari,49,Berkarya,Mari,52,53,Mari,Berkarya,56,Mari,58,59,Mari Berkarya,61,62,Mari,64,Berkarya,Mari,67,68,Mari,Berkarya,71,Mari,73,74,Mari Berkarya,76,77,Mari,79,Berkarya,Mari,82,83,Mari,Berkarya,86,Mari,88,89,Mari Berkarya,91,92,Mari,94,Berkarya,Mari,97,98,Mari,Berkarya"
+				}
+			]
+		},
+		{
+			"name": "Number 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/number2/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"number2",
+						"9"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/number2/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"number2",
+								"9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8001"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 23 Jun 2025 18:26:34 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 23 Jun 2025 18:26:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.33"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImJ2Nm9LYkFNbDhqTkJaU1piMW5yTEE9PSIsInZhbHVlIjoiU1BWSmxQemtyQ2s3YkV2bGxGNE9EcVF5NzNoR1dHSVM4cVhESXlzek5YRmF0QzRxUE9LRWZTQkROQnN5NThlSVRmQnJGZG1Ybk5HN2JLdDVRYm1aUlhoTXBvSEtkdjlKbEJrOGZYTVQ2UzI3K3RjbmVkcnRyc2xKaTFnUVdsQUciLCJtYWMiOiIyMDNhZGM1OTI0NzNkOTMzYjBhMjRiMTU4ZGJjNTA2YWI1Y2MzNTc5YTUyYTQ0NTY3OGFlZDc4M2Y5N2JhNWVhIiwidGFnIjoiIn0%3D; expires=Mon, 23-Jun-2025 20:26:34 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Inkyc3NkMFEySVdCdkN5aXBnWHN5amc9PSIsInZhbHVlIjoiSWNhRnZTbnJjQnA2LzcvcmFWTEdLc0hoYWFnZlhTMkZhZlRlWUc0endLMGtocG12MmxoZzR4SmZPTVc0YWNvZG8vN1poUDhCNGZuVVZQWVl4eUFlSGs3enRoNGR1WkYxWEQ4S2h3NXN1UFJZTmJXRG00VzFCeEpoZUVmdE9XTGQiLCJtYWMiOiJmZWFjOGYwNDQ1MzUxZjNiMWRlZWY0MGE2MDJkNGQ5ZWZlODY0MzYzZTY3Y2EyOTAyOGZkMGY3YTQyMmRhM2RhIiwidGFnIjoiIn0%3D; expires=Mon, 23-Jun-2025 20:26:34 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						}
+					],
+					"cookie": [],
+					"body": "*********\n *******\n  *****\n   ***\n    *\n"
+				}
+			]
+		}
+	]
+}
